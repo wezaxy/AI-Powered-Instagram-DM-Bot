@@ -18,8 +18,12 @@ async def test(username, password,language,proxy,group_messages):
 
     headers["Authorization"] = f"{mydata.get('auth')}"
     session = aiohttp.ClientSession()
+    if not proxy == None:
+        proxy=f"http://{proxy}"
+        
+        
 
-    async with session.get("https://i.instagram.com/api/v1/direct_v2/inbox/",proxy=f"http://{proxy}", headers=headers, params={"persistentBadging": "true", "use_unified_inbox": "true"})as re:
+    async with session.get("https://i.instagram.com/api/v1/direct_v2/inbox/",proxy=proxy, headers=headers, params={"persistentBadging": "true", "use_unified_inbox": "true"})as re:
         res = await re.json()
         if not res.get('logout_reason') is None:
             lt = login(username, password)
