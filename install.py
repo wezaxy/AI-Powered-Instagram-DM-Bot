@@ -7,6 +7,7 @@ reqmodules = [
     "aiohttp", 
     "asyncio",
     "secrets",
+    "user_agent"
     
 ]
 
