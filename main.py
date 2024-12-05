@@ -31,7 +31,7 @@ async def main():
             result = await test(username, password, language, None,group_messages)
             print(result)
         if use_proxy is False:
-         await asyncio.sleep(0.1) 
+         await asyncio.sleep(2) 
 
 if __name__ == "__main__":
     asyncio.run(main())
