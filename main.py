@@ -24,12 +24,12 @@ async def main():
                 for proxy in proxies:
 
                     result = await test(username, password, language, proxy,group_messages)
-                    print(result)
+                    print("the last dm message that came in:",result)
 
         else:
             
             result = await test(username, password, language, None,group_messages)
-            print(result)
+            print("the last dm message that came in:",result)
         if use_proxy is False:
          await asyncio.sleep(2) 
 
