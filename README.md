@@ -103,7 +103,7 @@ python main.py
 
 For assistance or business inquiries, you can reach me on:
 
-- **Discord**: wezaxyy
+- **Discord**: wezaxy
 - **Signal**: wezaxy.43
 - **Telegram**: [@wezassy](https://t.me/wezassy)
 
