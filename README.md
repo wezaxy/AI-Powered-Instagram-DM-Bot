@@ -106,7 +106,7 @@ For assistance or business inquiries, you can reach me on:
 - **Discord**: wezaxy
 - **Signal**: wezaxy.43
 - **Telegram**: [@wezassy](https://t.me/wezassy)
-
+https://discord.gg/c44FB4PFcW
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
